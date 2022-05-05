@@ -18,3 +18,16 @@
     flex-direction: column;
     width: 100%;
 }
+
+#edu .items .item img{
+    flex-direction: column;
+    width: 100%;
+}
+
+#edu .items{
+    flex-direction: column;
+}
+
+#edu .items .item{
+    width: 100%;
+}
