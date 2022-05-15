@@ -1,0 +1,107 @@
+.resimSlider{
+  width:100%;
+  height: 90%;
+  }
+body{
+      padding-top: 5%;
+      font-family:Arial, Helvetica, sans-serif ;
+  }   
+
+  .giris{
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 7%;
+    padding: 3%;
+    border-style: inset;
+    border-radius: 10%;
+    }
+
+.Icon{
+max-height: 30px;
+width: auto;
+}
+.Baslik {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
+
+.tanitim{
+width:70%;
+height:60%;
+}
+
+.ilgialan{
+margin-left: 40%;
+width: 20%;
+height: 30%;
+}
+
+.textilgi{
+
+  padding-inline: 10%;
+}
+
+@media screen and (max-width:1024px){
+.navba{
+height: 10%
+}
+
+.resimSlidere{
+width: 100%;
+height: 40%;
+}
+
+.metinler{
+margin: 5%;
+width: 90%;
+}
+
+.konum{
+
+width: 100%;
+}
+
+.sehrim{
+width: 95%;
+
+}
+
+.yemek{
+
+margin-left: 20%;
+margin-top:1%
+}
+.ilgialan{
+margin-left: 25%;
+width: 50%;
+height: 60%;
+}
+.metinslider{
+  margin-bottom: 5%;
+  margin-left: 22%;
+  width: 30%;
+  height: 15%;
+}
+.radiobtn{
+margin-left: 10%;
+
+}
+.tanitim{
+width:100%;
+height:60%;
+  }
+  .giris{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 7%;
+    padding: 3%;
+    border-style: inset;
+    border-radius: 10%;
+    }
+body{
+padding-top: 20%;
+font-family:Arial, Helvetica, sans-serif ;
+}   
+
+}
+

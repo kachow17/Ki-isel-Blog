@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>iletisim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+  <meta name="description"
+    content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+  <link rel='stylesheet' href='iletisim.css' type='text/css' />
+  <script src="iletisim.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    $(function () {
+      $("#DivContent").load("navbar.html");
+    });
+  </script>
+</head>
+
+<div id="DivContent"></div>
+
+<body onload="document.registration.username.focus();" >
+
+  <h1>İletişim Formu</h1>
+  <form name='registration' onSubmit="return formValidation();">
+    <ul>
+
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" id="username" name="username" placeholder="Adınızı giriniz...">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="surname" name="surname" placeholder="Soyadınızı giriniz...">
+          </div>
+        </div>
+        <br>
+
+        <div class="form-group">
+
+          <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+            placeholder="Email adresinizi giriniz...">
+        </div>
+
+        <div class="col">
+          <input type="text" class="form-control" id="phoneNo" name="phone_number"
+            placeholder="Telefon numaranızı giriniz...">
+        </div>
+
+        <br>
+      </form>
+      <li><select name="country " id="country">
+          <option selected="" value="Default">Lütfen bir ülke seçiniz</option>
+          <option value="Türkiye">Türkiye</option>
+          <option value="Avustralya">Avustralya</option>
+          <option value="Kanada">Kanada</option>
+          <option value="Hindistan">Hindistan</option>
+          <option value="Rusya">Rusya</option>
+          <option value="ABD">ABD</option>
+        </select></li>
+
+      <br>
+      Bildiğiniz diller:
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="c++" id="cPlus" name="cPlus">
+        <label class="form-check-label" for="flexCheckDefault">
+          C++
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="c#" id="csharp" name="csharp">
+        <label class="form-check-label" for="flexCheckChecked">
+          C#
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="java" id="java" name="java">
+        <label class="form-check-label" for="flexCheckChecked">
+          Java
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="python" id="python" name="python">
+        <label class="form-check-label" for="flexCheckChecked">
+          Python
+        </label>
+      </div>
+
+      </div>
+      <li><label id="gender">Cinsiyet:</label></li>
+      <li><input type="radio" name="msex" value="Erkek" id="erkek" class="radiobtn" /><span>Erkek</span></li>
+      <li><input type="radio" name="fsex" value="Kadın" id="kadin" class="radiobtn" /><span>Kadın</span></li>
+      <li><label for="desc">Mesaj:</label></li>
+      <li><textarea name="desc" id="mesaj" class="radiobtn"></textarea></li>
+      <li><input type="submit" name="submit" value="Gönder" /></li>
+      <input type="reset" value="Temizle" onclick="clearFunc()" id="res" class="btn border border-dark bg-light " />
+
+    </ul>
+  </form>
+
+</body>
+
+</html>

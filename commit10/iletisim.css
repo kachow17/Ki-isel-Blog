@@ -1,0 +1,49 @@
+h1 {
+    margin-left: 5%;
+    }
+    form li {
+    list-style: none;
+    margin-bottom: 1%;
+    }
+    
+    form ul li label{
+    float: left;
+    clear: left;
+    width: 5%;
+    text-align: right;
+    margin-right: 5%;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:90%;
+    }
+  
+
+    
+    form ul li input, select, span {
+    float: left;
+    margin-bottom: 1%;
+    }
+    
+    form textarea {
+    float: left;
+    width: 50%;
+    height: auto;
+    }
+    
+    [type="submit"] {
+    clear: left;
+    margin: 4% 0 0 20%;
+    font-size:100%
+    }
+
+    [type="reset"] {
+        clear: left;
+        margin:4% 40% 0 20%;
+        font-size:100%
+        
+        }
+    
+    p {
+    margin-left: 30%;
+    font-weight: bold;
+    }
+    
