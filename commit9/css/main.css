@@ -1,0 +1,341 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+}
+/* navbar */
+#navbar{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background: rgb(255, 167, 3);
+    border-radius: 5px;
+    color: white;
+
+}
+
+/* home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin-bottom: 0.75 rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Hakkımda */
+
+#hakkimda{
+    color: white;
+    padding: 1rem;
+}
+
+#hakkimda .items{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#hakkimda .items .item{
+    width: 50%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#hakkimda .items .item img{
+    border: 2px solid black;
+}
+
+#hakkimda .items .item img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/* Eğitim sayfaı */
+
+#edu .items{
+    display: flex;
+    justify-content: space-between;
+}
+
+#edu .items .item{
+    color: white;
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#edu .items .item ul{
+    
+    padding:0 0.75rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#edu .items .item ul li{
+    display: flex;
+    text-align: center;
+    width: 20%;
+    padding: 1.25rem;
+}
+
+#edu .items .item ul li:hover{
+    
+    background: rgb(255, 167, 3) ;
+    border-radius: 3px;
+    border: 0.5px solid black;
+}
+
+#edu .items .item:hover{
+    color: rgb(110, 29, 29);
+}
+
+#edu .items .item img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#edu .items .item img{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.container{
+    padding-bottom: 2rem;
+}
+
+#şehir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#şehir .items .item #info{
+    max-width: 1200px;
+    text-align: center;
+    color: white;
+    
+}
+
+#şehir .items .item #info:hover{
+    color: rgb(110, 29, 29);
+}
+    
+.container{
+    padding-top: 3rem;
+}
+
+#miras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+#miras .item img{
+    
+    border:2px solid grey;
+    max-width: 100%;
+    height: auto;
+    margin: 3rem;
+    
+}
+ 
+#miras .item img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#miras .item #info{
+    max-width: 1200px;
+    text-align: center;
+    color: white;
+}  
+
+#miras .item #info:hover{
+    color: rgb(110, 29, 29);
+}
+
+/* contact page */
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #011627;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cont-element i{
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+}
+.cont-element a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-bottom a{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #181818;
+    border-radius: 50%;
+}
+.cont-bottom a:hover{
+    color: #181818;
+    background-color: #ffffff;
+}
+
+
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+.cont-right form button{
+    background-color: #ffffff;
+    color: #011627;
+    cursor: pointer;
+}
+.cont-right form button:hover{
+    background-color: #011627;
+    color: #ffffff;
+}
+.cont-right form input:hover, textarea:hover{
+    color: #011627;
+    background-color: #ffffff;
+}
+.cont-right form input:focus, textarea:focus{
+    color: #011627;
+    background-color: #ffffff;
+}
+
+/* ilgi alanı */
+
+#preimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+#preimg img{
+    border:2px solid grey;
+    max-width: 100%;
+    height: auto;
+    margin: 3rem;
+}
+
+#preimg img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

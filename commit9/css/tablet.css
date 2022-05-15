@@ -1,0 +1,30 @@
+#navbar{
+    flex-direction: column;
+    padding-top:0.5rem ;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+}
+
+#hakkimda .items{
+    flex-direction: column;
+}
+
+#hakkimda .items .item{
+    width:100%;
+}
+
+#hakkimda .items .item img{
+    flex-direction: column;
+    width: 100%;
+}
+
+#edu .items .item img{
+    flex-direction: column;
+    width: 100%;
+}
+
+#edu .items .item ul{
+    flex-direction: column;
+    width: 100%;
+}
